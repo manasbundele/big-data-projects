@@ -7,7 +7,7 @@ competitors which results in an explosive growth of spamming. The primary proble
 Readers are misguided by opinion spammers who try to tamper the automatic systems designed for opinion mining and sentiment analysis by providing undeserving positive
 opinions in order to promote the entities by giving incorrect negative opinions to some other entities in order to hamper their reputations.
 
-### Dataset
+## Dataset
 
 We are using Yelp dataset to build our Fake Opinion Detector in which we have taken up
 specific NYC dataset which contains the reviews of restaurants and hotels of NYC. 
@@ -27,9 +27,9 @@ Hence these 2 files are our input. We have merged these two files based on user_
 product_id and date in our program to get the final dataset.
 
 
-### Implementation Details
+## Implementation Details
 
-#### a. Preprocessing:
+### a. Preprocessing:
 
 1. We merged the data from the two files into a single dataframe using the common features: user_id, prod_id and date.
 2. Punctuation removal.
@@ -39,6 +39,21 @@ the ratio of authentic data and fake data to 2.
 4. Stop words removal.
 5. Lemmatization.
 
-#### b. Feature Engineering
+### b. Feature Engineering
+1. Bi-Gram Modeling
+2. Tf-Idf 
+3. K-Means clustering 
+4. Latent Dirichlet Allocation(LDA) for topic modeling
 
+### c. Different Training Models
+1. Naive Bayes Classifier
+2. Random Forest Classifier
+3. SVM
+4. Gradient Boosted Trees
+5. Logistic Regression
 
+### d. Hyperparameter tuning, Cross-validation and Evaluation
+
+1. ParamGridBuilder to try different hyperparameters for each model
+2. 5-fold cross validation
+3. Accuracy, Area under ROC and Area under PR
