@@ -1,3 +1,10 @@
+'''
+This project was done as a part of two-to-three week course project for the course Big Data Analytics and Management at UTD.
+
+Team:
+Manas Bundele, Ananya Banerjee, Lipsa Senapati, Vyom Gupta
+'''
+
 import sys
 import pandas as pd
 from pyspark.conf import SparkConf
