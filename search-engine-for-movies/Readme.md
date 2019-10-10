@@ -2,7 +2,7 @@
 
 In this part, we worked with a dataset of movie plot summaries that is available from the
 Carnegie Movie Summary Corpus site. We built a search engine for the plot
-summaries. We used the tf-idf technique to accomplish the above task.
+summaries using Scala. We used the tf-idf technique to accomplish the above task.
 
 ## Details:
 1. Extract and upload the file plot summaries.txt from http://www.cs.cmu.edu/~ark/personas/
@@ -19,4 +19,4 @@ movie with action scenes". In this case, it evaluates the cosine similarity betw
 the query and all the documents and return top 10 documents having the highest cosine
 similarity values.
 
-
+The attached file movie_search_engine.html contains the databricks file with the scala code.
