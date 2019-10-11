@@ -26,3 +26,6 @@ We searched for the tweets related to topic 'cricket' and analyzed its sentiment
 Description of chart: The bar chart and kibana visualization file is attached. In the bar chart, the Y-axis refer to count of tweets and the X-axis has sentiments plotted. Sentiments vary from 0 to 4 with 0 being “very negative”, 1 as “negative”, 2 as “neutral”, 3 as “positive” and 4 as “very positive”. For each sentiment, we aggregated the values for a period of 30 minutes and displayed it in the chart with different color bars. The top right corner shows time slots for the different color bars.
 
 This visualisation can then be used to analyze the change of emotions for a given topic at a given time.
+
+The below chart shows the sentiment distribution for the topic 'cricket' on twitter over an interval of 4 hours. 
+![Sentiment distribution for cricket](https://github.com/manasbundele/big-data-projects/blob/master/sentiment-analysis-for-streaming-twitter-feeds/Twitter%20Sentiment%20Analysis%20for%20Cricket.png?raw=true)
