@@ -19,7 +19,6 @@ object TopicModeling {
     // create Spark context with Spark configuration
     val sc = new SparkContext(new SparkConf().setAppName("Topic Modeling"))//.setMaster("local"))
 
-    // "/Users/manasbundele/Documents/big data/assignment/assignment2/src/main/scala/hyde.txt"
     val corpus: RDD[String] = sc.wholeTextFiles(args(0)).map(_._2)
     corpus.take(10)
 
