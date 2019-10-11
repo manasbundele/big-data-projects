@@ -51,7 +51,7 @@ object TwitterSentimentAnalysis {
     // change the following credentials and put your app credentials
     System.setProperty("twitter4j.oauth.consumerKey", "consumerKey")
     System.setProperty("twitter4j.oauth.consumerSecret", "consumerSecret")
-    System.setProperty("twitter4j.oauth.accessToken", "accessToken-KHJYIT0Wky1K6tlo2yYFIr16wZuYvS")
+    System.setProperty("twitter4j.oauth.accessToken", "accessToken")
     System.setProperty("twitter4j.oauth.accessTokenSecret", "accessTokenSecret")
 
     val filter = Array(inTopic)
